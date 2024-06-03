@@ -1,0 +1,11 @@
+
+.titulo-pricipal{
+ font-size: 22px;
+ color: rgb(245, 241, 248);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+.fundo{
+display: inline-block;
+position: relative;
+}
