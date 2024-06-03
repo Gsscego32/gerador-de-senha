@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .titulo-pricipal{
  font-size: 22px;
  color: rgb(245, 241, 248);
 -webkit-text-stroke-width: 1px;
+font-family: "Anton", sans-serif;
 -webkit-text-stroke-color: black;
+background-image: url(download.jpeg);
+background-repeat: no-repeat no-repeat;
+background-position: center center;
+min-height: 100%;
+background-size: cover;
+padding: 20%;
+margin: 0px;
+border: linear-gradient(45deg, yellow, #00ff00,#0099ff,blue,#a200ff,#ff0055,#ff0000);   
 }
-.fundo{
-display: inline-block;
-position: relative;
-}
+
