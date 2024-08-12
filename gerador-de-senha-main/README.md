@@ -1,2 +1,0 @@
-# gerador-de-senha
-senha
