@@ -144,3 +144,15 @@ background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, 
     height: 25px;
     width: 33%;
 }
+.media{
+    height: 25px;
+    width: 57%;
+    background-color: rgb(71, 61, 61) ;
+    bottom: 25px;
+}
+.forte{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    bottom: 25px;
+}
