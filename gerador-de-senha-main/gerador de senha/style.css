@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.barra{
+     border-color: black;
+    background-color: rgb(245, 245, 245);
+    height: 25px;
+    width: 100%;
+    
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+    
+}
+    .parametro-coluna-senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.titulo-pricipal{
+ font-size: 22px;
+ color: rgb(245, 241, 248);
+-webkit-text-stroke-width: 1px;
+font-family: "Anton", sans-serif;
+-webkit-text-stroke-color: black;
+background-image: url(download.jpeg);
+background-repeat: no-repeat no-repeat;
+background-position: center center;
+min-height: 100%;
+background-size: cover;
+padding: 20%;
+margin: 0px;
+border: linear-gradient(45deg, yellow, #00ff00,#0099ff,blue,#a200ff,#ff0055,#ff0000); 
+background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  
+}
+
+
+.conteudo{
+    text-align: center;
+    width: 100%;
+    /*Largura da primeira parte*/
+    margin: 0 auto;
+    margin-top: 30px;
+    /*Espaço pra cima da primeira parte*/
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 30px;
+    /*Espaço pra cima do título*/
+}
+
+.titulo-secundario{
+    font-size: 25px;
+    /*Tamanho do segundo título*/
+    font-family: var(black);
+    text-align: center;
+    
+}
+.conteudo-senha{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 35px;
+    /*Quão arredondado é o local da senha*/
+    padding: 40px ;
+    /*Espaço interno da senha*/
+    border-bottom: 5px ;
+    font-size: 60px ;
+    /*Tamanho da letra do lado da senha*/
+}
+    
+#campo-senha{
+    background-color:rgb(252, 252, 252);
+    color:rgb(0, 0, 0);
+    width: 80%;
+    font-size: 38px;
+    /*Tamanho da letra que a senha será escrita*/
+    border-radius: 30px;
+}
+    
+#campo-senha:focus{
+    outline:none;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.parametro-titulo{
+    font-family:red;
+    font-size: 30px;
+    /*Tamanho do título da área dos parâmetros*/
+}
+ 
+.parametro{
+    font-family: red;
+    font-size: 15px;
+    /*Tamanho da letra nos parametros*/
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    /*Espaço em volta dos parâmetros*/
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+    }
+    .parametro-coluna-senha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+.fraco{
+   position: relative;
+   bottom: 25px;
+    background-color: rgb(173, 134, 112);
+    height: 25px;
+    width: 33%;
+}
+.media{
+    height: 25px;
+    width: 57%;
+    background-color: rgb(71, 61, 61) ;
+    bottom: 25px;
+}
+.forte{
+    height: 25px;
+    width: 100%;
+    background-color: black;
+    bottom: 25px;
+}
